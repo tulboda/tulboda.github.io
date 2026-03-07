@@ -4,6 +4,17 @@ layout: default
 
 ## about
 
+<pre aria-hidden="true" style="font-size: clamp(0.35rem, 1.1vw, 0.55rem); line-height: 1.2; font-family: monospace; overflow-x: hidden;">
+  █████               ████  █████             
+ ▒▒███               ▒▒███ ▒▒███              
+ ███████   █████ ████ ▒███  ▒███████   ██████ 
+▒▒▒███▒   ▒▒███ ▒███  ▒███  ▒███▒▒███ ███▒▒███
+  ▒███     ▒███ ▒███  ▒███  ▒███ ▒███▒███ ▒███
+  ▒███ ███ ▒███ ▒███  ▒███  ▒███ ▒███▒███ ▒███
+  ▒▒█████  ▒▒████████ █████ ████████ ▒▒██████ 
+   ▒▒▒▒▒    ▒▒▒▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒▒▒▒   ▒▒▒▒▒▒  
+</pre>
+
 I like to make things, but I don't usually share them so publicly. Hopefully I can learn to work on things out in the open.
 
 I like dates written year-month-day with leading zeroes. Weeks start on Sunday. My spelling is all mixed up since I left the US, but I still mostly prefer American spelling when I notice it.
