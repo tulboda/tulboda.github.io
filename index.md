@@ -1,10 +1,7 @@
 ---
 layout: default
 ---
-
-## about
-
-<pre aria-hidden="true" style="font-size: clamp(0.35rem, 1.1vw, 0.55rem); line-height: 1.2; font-family: monospace; overflow-x: hidden;">
+<pre aria-hidden="true" style="font-size: clamp(0.25rem, 0.8vw, 0.4rem); line-height: 1.2; font-family: monospace; overflow-x: hidden;">
   █████               ████  █████             
  ▒▒███               ▒▒███ ▒▒███              
  ███████   █████ ████ ▒███  ▒███████   ██████ 
@@ -14,6 +11,8 @@ layout: default
   ▒▒█████  ▒▒████████ █████ ████████ ▒▒██████ 
    ▒▒▒▒▒    ▒▒▒▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒▒▒▒   ▒▒▒▒▒▒  
 </pre>
+
+## about
 
 I like to make things, but I don't usually share them so publicly. Hopefully I can learn to work on things out in the open.
 
