@@ -13,7 +13,7 @@ There's no monetization, advertisements, trackers, paywalls, or public comments.
 
 Just take off your shoes first before coming in.
 
-<pre aria-hidden="true" style="text-align: right; font-size: clamp(0.25rem, 0.8vw, 0.4rem); line-height: 1.2; font-family: 'Courier New', Courier, monospace; white-space: pre; margin: 2rem 0 0; padding: 0;">
+<pre aria-hidden="true" style="text-align: right; font-size: clamp(0.15rem, 0.5vw, 0.25rem); line-height: 1.2; font-family: 'Courier New', Courier, monospace; white-space: pre; margin: 2rem 0 0; padding: 0;">
 ╔███████████████  ╔█████  ╔██████         ╔██████
 ║███████████████  ║█████  ║██████         ║██████
 ║██████════════╝  ║█████  ║██████████████████████
@@ -25,9 +25,9 @@ Just take off your shoes first before coming in.
 ╚══════════════╝  ╚════╝  ║██████████████████████
 ╔██████████████████████   ║██████████████████████
 ║██████████████████████   ╚═════════════════════╝
-╚═══════════════╗██████           ╔██████
-╔██████████████████████           ║██████
-║██████████████████████           ╚═════╝
+╚═══════════════╗██████           ╔██████        
+╔██████████████████████           ║██████        
+║██████████████████████           ╚═════╝        
 ║██████═══════════════╝   ╔██████████████████████
 ║██████████████████████   ║██████████████████████
 ║██████████████████████   ║██████████████████████
