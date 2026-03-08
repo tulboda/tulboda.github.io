@@ -275,7 +275,7 @@ header pre {
   display: none;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
   header pre {
     display: block !important;
   }
