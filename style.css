@@ -280,3 +280,16 @@ header pre {
     display: block !important;
   }
 }
+
+/* blink after titles */
+article h2::after,
+main h2::after {
+  content: "█";
+  padding-left: 2px;
+  animation: 0.9s ease 0s infinite normal none running blink-animation;
+}
+
+@keyframes blink-animation {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
