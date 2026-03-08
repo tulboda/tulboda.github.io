@@ -269,14 +269,3 @@ blockquote {
 body {
     -webkit-text-size-adjust: 100%;
 }
-
-/* ASCII art header */
-header pre {
-  display: none;
-}
-
-@media (min-width: 900px) {
-  header pre {
-    display: block !important;
-  }
-}
