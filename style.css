@@ -269,3 +269,10 @@ blockquote {
 body {
     -webkit-text-size-adjust: 100%;
 }
+
+/* ASCII art header */
+@media (min-width: 600px) {
+  header pre {
+    display: block !important;
+  }
+}
