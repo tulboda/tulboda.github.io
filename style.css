@@ -286,8 +286,8 @@ article h2::after,
 main h2::after {
   content: "█";
   display: inline-block;
-  width: 0.6em;
-  padding-left: 2px;
+  width: 1ch;
+  padding-left: 0;
   animation: 0.9s ease 0s infinite normal none running blink-animation;
 }
 
