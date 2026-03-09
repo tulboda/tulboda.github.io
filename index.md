@@ -34,4 +34,6 @@ Just take off your shoes first before coming in.
 ║██████████████████████   ║██████████████████████
 ╚═════════════════════╝   ╚═════════════════════╝
 </pre>
+
+{% include stamp.html %}
 {:/nomarkdown}
