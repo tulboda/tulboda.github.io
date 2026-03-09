@@ -13,6 +13,4 @@ There's no monetization, advertisements, trackers, paywalls, or public comments.
 
 Just take off your shoes first before coming in.
 
-{::nomarkdown}
 {% include stamp.html %}
-{:/nomarkdown}
