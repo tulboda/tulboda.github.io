@@ -33,3 +33,25 @@ Just take off your shoes first before coming in.
 ║██████████████████████   ║██████████████████████
 ╚═════════════════════╝   ╚═════════════════════╝
 </pre>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 238" aria-hidden="true" style="display: block; margin-left: auto; width: clamp(140px, 50%, 320px);">
+  <style>text { font-family: "Courier New", monospace; font-size: 11px; fill: #c0392b; }</style>
+  <text x="2" y="12" textLength="490" lengthAdjust="spacing">╔███████████████  ╔█████  ╔██████         ╔██████</text>
+  <text x="2" y="25" textLength="490" lengthAdjust="spacing">║███████████████  ║█████  ║██████         ║██████</text>
+  <text x="2" y="38" textLength="490" lengthAdjust="spacing">║██████════════╝  ║█████  ║██████████████████████</text>
+  <text x="2" y="51" textLength="490" lengthAdjust="spacing">║█████████████╔███║█████  ║██████████████████████</text>
+  <text x="2" y="64" textLength="490" lengthAdjust="spacing">║█████████████║███║█████  ║██████████████████████</text>
+  <text x="2" y="77" textLength="490" lengthAdjust="spacing">║██████══════╝╚══╝║█████  ║██████═════════╗██████</text>
+  <text x="2" y="90" textLength="490" lengthAdjust="spacing">║███████████████  ║█████  ║██████         ║██████</text>
+  <text x="2" y="103" textLength="490" lengthAdjust="spacing">║███████████████  ║█████  ║██████████████████████</text>
+  <text x="2" y="116" textLength="490" lengthAdjust="spacing">╚══════════════╝  ╚════╝  ║██████████████████████</text>
+  <text x="2" y="129" textLength="490" lengthAdjust="spacing">╔██████████████████████   ║██████████████████████</text>
+  <text x="2" y="142" textLength="490" lengthAdjust="spacing">║██████████████████████   ╚═════════════════════╝</text>
+  <text x="2" y="155" textLength="490" lengthAdjust="spacing">╚═══════════════╗██████           ╔██████        </text>
+  <text x="2" y="168" textLength="490" lengthAdjust="spacing">╔██████████████████████           ║██████        </text>
+  <text x="2" y="181" textLength="490" lengthAdjust="spacing">║██████████████████████           ╚═════╝        </text>
+  <text x="2" y="194" textLength="490" lengthAdjust="spacing">║██████═══════════════╝   ╔██████████████████████</text>
+  <text x="2" y="207" textLength="490" lengthAdjust="spacing">║██████████████████████   ║██████████████████████</text>
+  <text x="2" y="220" textLength="490" lengthAdjust="spacing">║██████████████████████   ║██████████████████████</text>
+  <text x="2" y="233" textLength="490" lengthAdjust="spacing">╚═════════════════════╝   ╚═════════════════════╝</text>
+</svg>
