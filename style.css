@@ -202,47 +202,28 @@ mark {
 
 /* Navigation - centered top bar */
 nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 0.25rem 2rem;
-    margin: 1rem 0 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.25rem 2rem;
+  margin: 1rem 0 2rem;
 }
 
 nav a {
-    border-bottom: none;
-    padding: 0.25em 0;
-    text-decoration: none;
-    color: var(--text-color);
-    position: relative;
-}
-
-nav a::after {
-    content: '';
-    display: block;
-    height: 2px;
-    background-color: var(--text-color);
-    transform: scaleX(0);
-    transition: transform 0.15s ease;
-}
-
-nav a:hover::after,
-nav a:focus::after {
-    transform: scaleX(1);
+  border-bottom: none;
+  padding: 0.25em 0;
+  text-decoration: none;
+  color: var(--text-color);
+  position: relative;
 }
 
 nav a.active {
-    border-bottom: none;
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    text-underline-offset: 4px;
-    color: var(--text-color);
-    background-color: transparent;
-}
-
-nav a:hover, nav a:focus, nav a:focus-visible {
-    color: var(--text-color);
-    background-color: transparent;
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 4px;
+  color: var(--text-color);
+  background-color: transparent;
 }
 
 /* Printing support */
