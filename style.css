@@ -222,7 +222,6 @@ nav a.active {
   text-decoration: underline;
   text-decoration-style: wavy;
   text-underline-offset: 4px;
-  color: var(--text-color);
 }
 
 /* Printing support */
