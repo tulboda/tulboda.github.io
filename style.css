@@ -289,3 +289,13 @@ time {
 body {
     -webkit-text-size-adjust: 100%;
 }
+
+/* Cursor animation for headings */
+h2::after {
+  content: '█';
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
