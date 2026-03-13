@@ -4,7 +4,15 @@
  * License: MIT
  */
 
-html {
+@font-face {
+    font-family: 'D2Coding';
+    src: url('/fonts/d2coding-ver1_3_2-20180524-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+ html {
     scrollbar-gutter: stable;
 }
 
@@ -99,6 +107,7 @@ a:hover, a:focus, a:focus-visible {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'D2Coding', 'Courier New', monospace;
     line-height: 1.3;
     font-weight: 900;
     word-break: break-word;
@@ -135,11 +144,11 @@ pre {
     overflow-wrap: break-word;
     hyphens: auto;
     white-space: pre-wrap;
-    font-family: monospace;
+    font-family: 'D2Coding', 'Courier New', monospace;
 }
 
 code {
-    font-family: monospace;
+    font-family: 'D2Coding', 'Courier New', monospace;
     font-size: calc(var(--text-font-size) * 0.85);
 }
 
@@ -257,6 +266,11 @@ blockquote {
     padding: var(--common-element-size-05x) var(--common-element-size);
     font-style: italic;
     opacity: 0.85;
+}
+
+/* Time */
+time {
+    font-family: 'D2Coding', 'Courier New', monospace;
 }
 
 /* Selection highlight */
