@@ -2,11 +2,6 @@
 layout: default
 ---
 <style>
-  .stamp-wrap {
-    font-size: clamp(0.2rem, 0.4vw, 0.3rem) !important;
-    margin-bottom: 2rem;
-  }
-
   time {
     display: block;
     font-size: 0.9em;
@@ -30,4 +25,4 @@ layout: default
   {{ content }}
 </article>
 
-<div class="stamp-wrap">{% include stamp.html %}</div>
+{% include stamp-small.html %}
