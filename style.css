@@ -114,12 +114,12 @@ h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
     white-space: normal;
     hyphens: auto;
-    -webkit-text-stroke: 1px;
+    -webkit-text-stroke: 0.7px;
 }
 
-header h1 {
+/* header h1 {
     font-family: var(--text-font-family);
-}
+} */
 
 h1:not(:first-child), h2:not(:first-child), h3:not(:first-child), h4:not(:first-child), h5:not(:first-child), h6:not(:first-child) {
     margin-top: var(--common-element-size-2x);
