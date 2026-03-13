@@ -261,6 +261,7 @@ time {
 /* Selection highlight */
 ::selection {
     background-color: rgba(119,51,204,0.45);
+    color: var(--dark-theme-text-color);
 }
 
 /* Compatibility */
