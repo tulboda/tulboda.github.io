@@ -211,7 +211,7 @@ nav {
 
 nav a {
   border-bottom: none;
-  padding: 0.25em 0;
+  padding: 0.15em 0.15em;
   text-decoration: none;
   color: var(--text-color);
   position: relative;
