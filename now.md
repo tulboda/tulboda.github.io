@@ -3,7 +3,8 @@ layout: page
 title: now
 ---
 
-### mood: <a href="https://www.imood.com/users/jomolin"><img src="https://moods.imood.com/display/uname-jomolin/fg-ffffff/trans-1/imood.gif" alt="The current mood of jomolin at www.imood.com" style="height: 1em;" border="0"></a>
+### mood: {% if site.data.mood.current %}{{ site.data.mood.current }}{% endif %} <a href="https://www.imood.com/users/jomolin"><img src="https://moods.imood.com/display/uname-jomolin/fg-ffffff/trans-1/imood.gif" alt="The current mood of jomolin at www.imood.com" style="height: 1em;" border="0"></a>
+{% if site.data.mood.personal %}<p style="margin: 0 0 0 3.5rem; font-style: italic;">{{ site.data.mood.personal }}</p>{% endif %}
 
 ### status
 
