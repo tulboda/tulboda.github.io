@@ -3,7 +3,7 @@ layout: page
 title: now
 ---
 
-### mood: <a href="https://www.imood.com/users/jomolin" style="border-bottom: none;"><img src="{{ '/assets/imood/face.gif' | relative_url }}" alt="mood face" style="height: 1em; width: auto; vertical-align: middle; margin-right: 0.25em;"><span style="font-weight: normal;">{% if site.data.mood.current %}{{ site.data.mood.current }}{% endif %}</span></a>
+### mood: <a href="https://www.imood.com/users/jomolin" style="border-bottom: none;"><img src="{{ '/assets/imood/face.gif' | relative_url }}" alt="mood face" style="height: 1em; width: auto; vertical-align: middle; margin-right: 0.25em;"><span style="font-weight: 400; -webkit-text-stroke: 0;">{% if site.data.mood.current %}{{ site.data.mood.current }}{% endif %}</span></a>
 {% if site.data.mood.personal %}<p style="margin: 0 0 0 3.5rem; font-style: italic; font-weight: normal;">{{ site.data.mood.personal }}</p>{% endif %}
 
 ### status
