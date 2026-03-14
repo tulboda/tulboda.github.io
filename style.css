@@ -273,7 +273,6 @@ body {
 h2::after {
   content: '█';
   animation: blink 1s step-end infinite;
-  font-weight: 400;
   -webkit-text-stroke: 0;
 }
 
