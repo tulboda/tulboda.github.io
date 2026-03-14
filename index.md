@@ -11,6 +11,6 @@ This site is a home and a place for me to sort out my thoughts. It's my place on
 
 There's no monetization, advertisements, trackers, paywalls, or public comments. But, if you've got anything to add to my brain, feel free to [contact me](mailto:jsmolinelli@proton.me).
 
-Just take off your shoes first before coming in.
+Just take off your shoes before coming in.
 
 {% include stamp.html %}
