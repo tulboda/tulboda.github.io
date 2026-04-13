@@ -73,6 +73,12 @@ _May 2013 – April 2015 · Gyeonggi-do, South Korea_
 
 **Graduate Diploma in Teaching (Primary)** _January – December 2024_
 
+### University of Canterbury
+**Microcredential: Better Start Literacy Approach (BSLA) — Teacher** _August 2026_
+
+### Play Included
+- Brick-by-Brick Programme Certified Facilitator (LEGO Foundation) — May 2026
+
 ### International TEFL and TESOL Training (Online)
 
 - 120 hr. Teaching English as a Foreign Language certificate — September 2014
@@ -87,4 +93,4 @@ _May 2013 – April 2015 · Gyeonggi-do, South Korea_
 
 ## Technical Skills
 
-Structured Literacy Instruction · ESOL Pedagogies · Data-driven Assessment Bilingual (English/Korean) · MS Office & Google Workspace · Classroom Management · CPA Maths Instruction
+Structured Literacy Instruction · ESOL Pedagogies · Data-driven Assessment · Bilingual (English/Korean) · MS Office & Google Workspace · Classroom Management · CPA Maths Instruction
