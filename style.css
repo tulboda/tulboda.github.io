@@ -43,7 +43,7 @@ html {
 /* Config */
 :root {
     --text-font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
-    --bg: #1e1f1c;
+    --bg: #1d1814;
     --text: #e8e1d4;
     --muted: #a89e8e;
     --accent: #b794b8;
@@ -83,7 +83,7 @@ body {
     font-size: var(--text-font-size);
     line-height: var(--text-line-height);
     background-color: var(--bg);
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.91 0 0 0 0 0.88 0 0 0 0 0.83 0 0 0 0.18 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.65 0 0 0 0 0.50 0 0 0 0 0.35 0 0 0 0.20 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
     background-attachment: fixed;
     min-width: var(--content-min-width);
     max-width: var(--content-width);
@@ -265,16 +265,6 @@ nav a {
     text-decoration: none;
     color: var(--text-color);
     position: relative;
-}
-
-/* Reserve space for the bold version so nothing shifts */
-nav a::before {
-    content: attr(data-text);
-    font-weight: bold;
-    display: block;
-    height: 0;
-    visibility: hidden;
-    overflow: hidden;
 }
 
 nav a.active {
