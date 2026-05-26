@@ -20,12 +20,12 @@ I love that duffel bag.
 - procreate - drawing
 - firefox, brave - browsers in order of preference
 ### homeserver
-old Lenovo IdeaPad running Debian Trixie, tucked away with the lid closed. everything is tailnet-only via [tailscale](https://tailscale.com/), no public exposure.
+old Lenovo IdeaPad running Debian Trixie
+- everything is tailnet-only via [tailscale](https://tailscale.com/), no public exposure.
 - [pi-hole](https://pi-hole.net/) - network-wide ad blocking + local DNS
 - music
 	- [navidrome](https://www.navidrome.org/) - music server, [tempo](https://github.com/CappielloAntonio/tempo) on the phone
 	- [listenbrainz](https://listenbrainz.org/) - scrobbling + recommendation engine
-	- [explo](https://github.com/LumePart/Explo) - pulls listenbrainz weekly exploration playlists into navidrome
 - reading
 	- [calibre-web](https://github.com/janeczku/calibre-web) - browses my calibre library
 	- [koreader](https://koreader.rocks/) + [kosync](https://github.com/koreader/kosync) - reading on phone and tablet with progress sync
