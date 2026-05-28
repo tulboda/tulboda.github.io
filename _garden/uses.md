@@ -6,7 +6,7 @@ I love that duffel bag.
 ### hardware
 - Lenovo T14 gen 3
 	- used business laptops are the way to go
-- m4 macbook air (work laptop, so stays at work, liquid glass can go die...)
+- m4 macbook air (work laptop, so stays at work)
 - 11" ipad pro 2018 + apple pencil
 - Pixel 9 Pro
 	- [niagara launcher](https://niagaralauncher.com/)
