@@ -1,5 +1,5 @@
 title: 난 털보다
-url: https://tulboda.github.io
+url: https://tulboda.pages.dev
 baseurl: /
 author: Joseph
 email: jsmolinelli@proton.me
@@ -34,3 +34,9 @@ plugins:
 feed:
   collections:
     - posts
+
+exclude:
+  - wrangler.toml
+  - Gemfile
+  - Gemfile.lock
+  - vendor
