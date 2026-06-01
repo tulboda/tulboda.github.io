@@ -1,0 +1,2 @@
+/*
+  Content-Security-Policy: default-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data: https://assets.hardcover.app https://images.imood.com https://fav.farm; script-src 'none'
