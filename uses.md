@@ -1,5 +1,7 @@
 ---
+layout: page
 title: uses
+permalink: /uses/
 ---
 I have always wanted everything as minimal as possible to be able to move it to wherever I need to be. I've been using the same rolling duffel bag, carry-on, backpack combo to move to university, to Korea, and to New Zealand.
 I love that duffel bag.

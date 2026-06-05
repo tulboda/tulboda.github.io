@@ -7,22 +7,12 @@ description: my little room online
 
 permalink: /blog/:title/
 
-collections:
-  garden:
-    output: true
-    permalink: /garden/:name/
-
 defaults:
   - scope:
       path: ""
       type: posts
     values:
       layout: post
-  - scope:
-      path: ""
-      type: garden
-    values:
-      layout: page
   - scope:
       path: ""
     values:
