@@ -14,10 +14,9 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 </head>
 <body>
-  <header style="position: relative;">
-    <h1>{{ site.title }}</h1>
+  <header>
     <nav>
-      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>home</a>
+      <a href="{{ '/' | relative_url }}" class="site-title">난 털보다</a>
       <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>blog</a>
       <a href="{{ '/garden/' | relative_url }}" {% if page.url contains '/garden' %}class="active"{% endif %}>garden</a>
       <a href="{{ '/now/' | relative_url }}" {% if page.url contains '/now' %}class="active"{% endif %}>now</a>
