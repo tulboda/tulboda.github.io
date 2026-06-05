@@ -68,6 +68,8 @@ nav {
 }
 
 .site-title {
+    font-family: var(--mono);
+    font-weight: bold;
     margin-right: auto;
     text-decoration: none;
     color: var(--text);
