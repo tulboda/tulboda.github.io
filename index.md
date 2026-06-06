@@ -9,7 +9,7 @@ I like dates written year-month-day with leading zeroes. Weeks start on Sunday. 
 
 This site is a home and a place for me to sort out my thoughts. It's my place online to relax and reflect on myself as a [meat computer](https://gravityfalls.fandom.com/wiki/We%27ll_Meet_Again). It's experimental and therapeutic, so don't take anything on here too seriously.
 
-There's no monetization, advertisements, trackers (or at least I tried to block the tracking script cloudflare pushes; if you know how to disable it permanently, please let me know), paywalls, or public comments. But, if you've got anything to add to my brain, feel free to [contact me](mailto:jsmolinelli@proton.me).
+There's no monetization, advertisements, trackers, paywalls, or public comments. But, if you've got anything to add to my brain, feel free to [contact me](mailto:jsmolinelli@proton.me).
 
 Just take off your shoes before coming in.
 
