@@ -133,7 +133,7 @@ time {
 }
 
 time a::after {
-    content: ' ☍';
+    content: '☍';
     margin-left: 0.5rem;
     font-size: 1.1em;
 }
