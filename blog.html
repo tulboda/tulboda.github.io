@@ -5,31 +5,6 @@ title: blog
 
 <h2>blog</h2>
 
-<style>
-  article + article {
-    margin-top: 2rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--border);
-  }
-  
-  time {
-    display: block;
-    font-size: 0.9em;
-    opacity: 0.7;
-    margin-bottom: 0.25rem;
-  }
-  
-  time a {
-    border-bottom: none;
-  }
-
-  time a::after {
-    content: ' ☍';
-    margin-left: 0.5rem;
-    font-size: 1.1em;
-  }
-</style>
-
 {% for post in site.posts %}
   <article>
     <time><a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y-%m-%d" }}</a></time>

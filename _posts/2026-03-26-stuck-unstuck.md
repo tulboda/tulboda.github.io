@@ -1,6 +1,6 @@
 ---
 title: stuck for the time being
-date: 2026-04-13
+date: 2026-03-26
 ---
 I think I was 11 years old when the movie Serendipity came out and I became aware of John Cusack sending me on a spiral of watching all my my sister's VHS tapes. In Serendipity John Cusack keeps meeting a quirky woman in a way that John Cusack often meets women in these movies until they decide they should be together at the end of the movie. Really the movie has very little to do with fate and more to do with the restaurant named Seredipity 3 that they eat at. But in a weird serendipity style meet-cute way, I opened Instagram during a moment of weakness only to immediately be fed something about a way to stop using Instagram. All it said was to make a "No-Scroll" notebook, where every time you find yourself scrolling or having the urge to scroll you pick up this notebook and write a big-ol'-hand-wavey _whatever_ in it.
 

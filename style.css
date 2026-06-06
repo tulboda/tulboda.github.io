@@ -117,6 +117,27 @@ code {
 
 img { max-width: 100%; }
 
+/* Blog list + dates */
+
+article + article {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--text);
+}
+
+time {
+    display: block;
+    font-size: 0.9em;
+    opacity: 0.7;
+    margin-bottom: 0.25rem;
+}
+
+time a::after {
+    content: ' ☍';
+    margin-left: 0.5rem;
+    font-size: 1.1em;
+}
+
 /* Hide totem on small screens */
 
 @media (max-width: 800px) {
