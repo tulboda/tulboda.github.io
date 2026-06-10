@@ -4,7 +4,7 @@ date: 2026-06-06
 ---
 It's been a long time since I wrote anything on the computer. I don't honestly have all that much to day though. I've been spending most of my time cleaining stuff up in my digital life.
 
-I've organized my notes in a way that makes more sense to my brain. I was using the [para](https://fortelabs.com/blog/para/) method, but ultimately I didn't _make_ that system so my brain couldn't really work that way. I ended up just makeing seperate folders by area of my life. A teacher's life doesn't fit neatly into time-bound and time-unbound projects, so PARA was never going to work for me anyway.
+I've organized my notes in a way that makes more sense to my brain. I was using the [para](https://fortelabs.com/blog/para/) method, but ultimately I didn't _make_ that system so my brain couldn't really work that way. I ended up just making seperate folders by area of my life. A teacher's life doesn't fit neatly into time-bound and time-unbound projects, so PARA was never going to work for me anyway.
 
 I moved this site over to cloudflare and got an actual domain name for it. Took me a while to figure out how to turn off tracking from cloudflare's dashboard, but it **should** be off now. I also cleaned up the CSS and the repo so it (hopefully) only has what is actually being used in it. The fonts should now be whatever is native on people's copmuters to make page loads lighter. And, I had to change the color scheme because my dyslexia was making it impossible for my brain to process the warm palette. I can read it now, so improvements were made. This site now is much more [energy efficient](https://www.websitecarbon.com/website/tulbo-page/) and smaller.
 
