@@ -11,9 +11,13 @@ I moved this site over to cloudflare and got an actual domain name for it. Took 
 All my homeserver stuff should be up to date in the uses page now. I've been trying to figure out the best way to properly tag all my music files and then upload them. It seems that Picard does a decent job, but anything not in English is manual-tag-city. Not ideal, but it's better than doing everything by hand. It's the same with calibre, so I sholdn't be so surprised.
 
 I tried out some kwin window managers, but they were all too buggy to be usable full time for me. They were always creating dead areas on the screen where the geometry of the windows didn't line up with the ui. But, I found out that meta+arrows/pgup & pgdn actually is more in line with what I'm used to anyway. When managing windows gets too annoying to do manually, only then might Itry out a real window manager de.
+
 ---
+
 Very selfishly, I've implemented a sacred writing time in my classroom so that I get 10 minutes of uninterrupted writing every day. I usually end up refelcting on the day up to that point, but a few times I've moved into more fiction writing. All of it is very first-draft level. Moving to a second draft definitely would need to happen on the computer so I can move things around more easily. I wish I could keep silent reading alongside writing, but there's not enough time in the day, and the students like writing better anyway so they're more likely to actually _be_ quiet.
+
 ---
+
 I felt really guilty for not writing anything on here for so long. The thing that got me over it was this quote that I have no idea of who the actual source is:
 
 >"write from the scar, not from the wound"
