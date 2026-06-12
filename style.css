@@ -141,5 +141,10 @@ img { max-width: 100%; }
 /* Hide totem on small screens */
 
 @media (max-width: 800px) {
-    [aria-hidden="true"][style*="position: fixed"] { display: none; }
+    #totem { display: none; }
+}
+
+@media (min-width: 801px) {
+    #totem svg { pointer-events: all; }
+    footer { padding-right: 60px; }
 }
