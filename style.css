@@ -145,6 +145,7 @@ img { max-width: 100%; }
 }
 
 @media (min-width: 801px) {
+    #totem { display: flex; flex-direction: column; }
     #totem svg { pointer-events: all; }
-    footer { padding-right: 60px; }
+    footer p { padding-right: 60px; }
 }
