@@ -1,35 +1,53 @@
-<div id="totem" aria-hidden="true" style="position: fixed; bottom: 1rem; right: 1rem; width: 48px; gap: 4px; z-index: 100;">
-  <!-- Ghost on top -->
-  <svg viewBox="0 0 16 12" width="48" height="36" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated; shape-rendering: crispEdges;">
-    <title>잡았다 요놈</title>
-    <g fill="#e8e1d4">
-      <rect x="6" y="0" width="4" height="1"/>
-      <rect x="4" y="1" width="8" height="1"/>
-      <rect x="3" y="2" width="10" height="1"/>
-      <rect x="2" y="3" width="11" height="1"/>
-      <rect x="2" y="4" width="11" height="1"/>
-      <rect x="2" y="5" width="11" height="1"/>
-      <rect x="2" y="6" width="11" height="1"/>
-      <rect x="2" y="7" width="11" height="1"/>
-      <rect x="2" y="8" width="11" height="1"/>
-      <rect x="2" y="9" width="11" height="1"/>
-      <rect x="2" y="10" width="2" height="1"/>
-      <rect x="5" y="10" width="2" height="1"/>
-      <rect x="8" y="10" width="2" height="1"/>
-      <rect x="11" y="10" width="2" height="1"/>
-      <rect x="2" y="11" width="1" height="1"/>
-      <rect x="6" y="11" width="1" height="1"/>
-      <rect x="9" y="11" width="1" height="1"/>
-      <rect x="12" y="11" width="1" height="1"/>
+<div id="totem" aria-hidden="true" style="position: fixed; bottom: 1rem; right: 1rem; width: 48px; display: flex; flex-direction: column; gap: 4px; z-index: 100;">
+
+  <!-- Umbrella ghost on top -->
+  <svg viewBox="0 0 16 18" width="48" height="54" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated; shape-rendering: crispEdges;">
+    <title>우산 유령</title>
+    <!-- tip spike -->
+    <g fill="#c8c0b4">
+      <rect x="7" y="0" width="2" height="1"/>
+      <rect x="7" y="1" width="2" height="1"/>
     </g>
-    <g fill="#1c2420">
-      <rect x="5" y="4" width="1" height="2"/>
-      <rect x="9" y="4" width="1" height="2"/>
+    <!-- canopy dome -->
+    <g fill="#5b8dd9">
+      <rect x="5" y="2" width="6" height="1"/>
+      <rect x="3" y="3" width="10" height="1"/>
+      <rect x="2" y="4" width="12" height="1"/>
+      <rect x="1" y="5" width="14" height="1"/>
+      <rect x="1" y="6" width="14" height="1"/>
+      <rect x="1" y="7" width="14" height="1"/>
+    </g>
+    <!-- panel dividers: only outer two, away from face -->
+    <g fill="#3a6abf">
+      <rect x="2" y="5" width="1" height="3"/>
+      <rect x="13" y="5" width="1" height="3"/>
+      <rect x="7" y="2" width="2" height="2"/>
+    </g>
+    <!-- flat bottom edge -->
+    <g fill="#3a6abf">
+      <rect x="1" y="8" width="14" height="1"/>
+    </g>
+    <!-- ghost face: eyes higher, gap, narrower mouth -->
+    <g fill="#e8f4ff">
+      <rect x="4" y="4" width="1" height="2"/>
+      <rect x="10" y="4" width="1" height="2"/>
       <rect x="7" y="7" width="2" height="1"/>
+    </g>
+    <!-- ghost tail: shaft then smooth wavy tail -->
+    <g fill="#5a3e1c">
+      <rect x="7" y="9" width="2" height="1"/>
+      <rect x="7" y="10" width="2" height="1"/>
+      <rect x="7" y="11" width="2" height="1"/>
+      <rect x="7" y="12" width="2" height="1"/>
+      <rect x="6" y="13" width="2" height="1"/>
+      <rect x="5" y="14" width="2" height="1"/>
+      <rect x="5" y="15" width="2" height="1"/>
+      <rect x="6" y="16" width="2" height="1"/>
+      <rect x="7" y="17" width="2" height="1"/>
     </g>
   </svg>
 
-  <!-- Frog in middle -->
+  <!-- Frog in middle (unchanged) -->
   <svg viewBox="0 0 16 12" width="48" height="36" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated; shape-rendering: crispEdges;">
     <title>WHATEVER IT'S 2009</title>
     <g fill="#6b8e4e">
@@ -67,7 +85,7 @@
     </g>
   </svg>
 
-  <!-- Mushroom on bottom -->
+  <!-- Mushroom on bottom (unchanged) -->
   <svg viewBox="0 0 16 12" width="48" height="36" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated; shape-rendering: crispEdges;">
     <title>버섯이다</title>
     <g fill="#b03a3a">
@@ -97,4 +115,5 @@
       <rect x="7" y="7" width="2" height="1"/>
     </g>
   </svg>
+
 </div>
