@@ -138,7 +138,7 @@ code {
 
 img { max-width: 100%; }
 
-/* Hide totem on small screens */
+/* Totem rulez */
 
 @media (max-width: 800px) {
     #totem { display: none; }
@@ -148,4 +148,16 @@ img { max-width: 100%; }
     #totem { display: flex; flex-direction: column; }
     #totem svg { pointer-events: all; }
     footer p { padding-right: 60px; }
+}
+
+@keyframes wiggle {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(-8deg); }
+    50%  { transform: rotate(8deg); }
+    75%  { transform: rotate(-4deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#totem svg:hover {
+    animation: wiggle 0.4s ease;
 }
