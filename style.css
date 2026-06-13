@@ -27,6 +27,7 @@ body {
 main {
     flex-grow: 1;
     padding-bottom: 6rem;
+    background: var(--bg);
 }
 
 footer {
