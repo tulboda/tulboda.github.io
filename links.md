@@ -19,6 +19,7 @@ title: links
 
 Blogs and sites I like in alphabetical order. Mostly education, tech, or personal website related. Capitalization = ¯\\\_(ツ)_/¯
 
+- [AetherAnne](https://aetheranne.ca/)
 - [ahnvn](https://anhvn.com/)
 - [Alex Sirac](https://shellsharks.com/)
 - [Dave Stuart Jr.](https://davestuartjr.com/archives/#year2026)
