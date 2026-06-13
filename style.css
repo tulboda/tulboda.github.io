@@ -113,15 +113,6 @@ blockquote {
     font-style: italic;
 }
 
-hr {
-    border: none;
-    margin: 2rem 0;
-}
-
-hr::before {
-    content: '---';
-}
-
 pre, code, time {
     font-family: var(--mono);
 }

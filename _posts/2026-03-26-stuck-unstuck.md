@@ -6,10 +6,10 @@ I think I was 11 years old when the movie Serendipity came out and I became awar
 
 Honestly, I've been writing, deleting, and rewriting this blog post for about 3 weeks now. It's finally fermented into actual thoughts because of this stupid little hack that I never would have found without opening the thing I hated so much. I haven't actually _used_ the notbeook all that much, but just having it means that I need to make a choice every time my brain wanders off: scroll on my phone or do the thing I promised and write in the notebook. Usually this means I do nothing for a while and stare into space until I'm ready to get back to doing work or exercising or reading or hobbies or cleaning. It's a suprisingly good reminder to be mindful.
 
----
+\-\-\-
 
 As I remove myself from my phone I really feel like I have more clarity about what I want to be doing, or at least need to be doing. Most of the time I just want to make coffee or watch people walking down the street from my balcony, but other times I want to update my dotfiles to automate away another mundane but annoying part of my life or read one of the 20 books I've started or write down something with a nice weighty pen in my smudged handwriting. It also makes it easier for me to think about what my goals are and what I need to do to get there, my biggest goal being to leave New Zealand, but that is a multi-million step process.
 
----
+\-\-\-
 
 There's also an issue of "this is all well and good during the term break but will I keep it up when I'm back at work" and I can honestly say, I most certainly will NOT keep it up. Something about work has become so draining that it's just impossible for me to physically get out and exercise with the intensity I want. There are some days where all I can do once I'm home is lay down and fall asleep until the next day even. So, whatever I'm doing now, I expect to do it at one-seventh of the intensity, meaning once a week. But for now, I just need to enjoy that I have the freedom to make that third cup of coffee and sit down to collect online radio stations that will help me sleep when I'm completely burnt out.
