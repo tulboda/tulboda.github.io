@@ -16,7 +16,8 @@ body {
     padding: 0 1.25rem;
     font: 1.25rem/1.8 sans-serif;
     color: var(--text);
-    background: var(--bg);
+    background-color: var(--bg);
+    background-image: url('/assets/pattern.svg');
     scrollbar-gutter: stable;
     min-height: 100vh;
     display: flex;
