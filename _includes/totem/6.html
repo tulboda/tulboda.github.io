@@ -1,46 +1,62 @@
 <div id="totem" aria-hidden="true" style="position: fixed; bottom: 1rem; right: 1rem; width: 48px; gap: 4px; z-index: 100;">
 
-  <!-- Beach ball (June) -->
+  <!-- Ghost with sunglasses (June) -->
   <svg viewBox="0 0 16 12" width="48" height="36" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated; shape-rendering: crispEdges;">
     <title>잡았다 요놈</title>
-    <!-- row 1: narrow top, 3 stripes -->
-    <rect x="5" y="1" width="3" height="1" fill="#e74c3c"/>
-    <rect x="8" y="1" width="3" height="1" fill="#f1c40f"/>
-    <!-- row 2 -->
-    <rect x="3" y="2" width="4" height="1" fill="#e74c3c"/>
-    <rect x="7" y="2" width="3" height="1" fill="#f1c40f"/>
-    <rect x="10" y="2" width="3" height="1" fill="#3498db"/>
-    <!-- row 3 -->
-    <rect x="2" y="3" width="4" height="1" fill="#e74c3c"/>
-    <rect x="6" y="3" width="4" height="1" fill="#f1c40f"/>
-    <rect x="10" y="3" width="4" height="1" fill="#3498db"/>
-    <!-- rows 4-8: widest, even stripes -->
-    <rect x="2" y="4" width="4" height="1" fill="#e74c3c"/>
-    <rect x="6" y="4" width="4" height="1" fill="#f1c40f"/>
-    <rect x="10" y="4" width="4" height="1" fill="#3498db"/>
-    <rect x="2" y="5" width="4" height="1" fill="#e74c3c"/>
-    <rect x="6" y="5" width="4" height="1" fill="#f1c40f"/>
-    <rect x="10" y="5" width="4" height="1" fill="#3498db"/>
-    <rect x="2" y="6" width="4" height="1" fill="#e74c3c"/>
-    <rect x="6" y="6" width="4" height="1" fill="#f1c40f"/>
-    <rect x="10" y="6" width="4" height="1" fill="#3498db"/>
-    <rect x="2" y="7" width="4" height="1" fill="#e74c3c"/>
-    <rect x="6" y="7" width="4" height="1" fill="#f1c40f"/>
-    <rect x="10" y="7" width="4" height="1" fill="#3498db"/>
-    <rect x="2" y="8" width="4" height="1" fill="#e74c3c"/>
-    <rect x="6" y="8" width="4" height="1" fill="#f1c40f"/>
-    <rect x="10" y="8" width="4" height="1" fill="#3498db"/>
-    <!-- row 9: narrowing, keep stripes proportional, no overlap -->
-    <rect x="3" y="9" width="3" height="1" fill="#e74c3c"/>
-    <rect x="6" y="9" width="4" height="1" fill="#f1c40f"/>
-    <rect x="10" y="9" width="3" height="1" fill="#3498db"/>
-    <!-- row 10: narrow bottom, just yellow centre -->
-    <rect x="6" y="10" width="4" height="1" fill="#f1c40f"/>
-    <!-- face -->
+    <g fill="#e8e1d4">
+      <rect x="6" y="0" width="4" height="1"/>
+      <rect x="4" y="1" width="8" height="1"/>
+      <rect x="3" y="2" width="10" height="1"/>
+      <rect x="2" y="3" width="11" height="1"/>
+      <rect x="2" y="4" width="11" height="1"/>
+      <rect x="2" y="5" width="11" height="1"/>
+      <rect x="2" y="6" width="11" height="1"/>
+      <rect x="2" y="7" width="11" height="1"/>
+      <rect x="2" y="8" width="11" height="1"/>
+      <rect x="2" y="9" width="11" height="1"/>
+      <rect x="2" y="10" width="2" height="1"/>
+      <rect x="5" y="10" width="2" height="1"/>
+      <rect x="8" y="10" width="2" height="1"/>
+      <rect x="11" y="10" width="2" height="1"/>
+      <rect x="2" y="11" width="1" height="1"/>
+      <rect x="6" y="11" width="1" height="1"/>
+      <rect x="9" y="11" width="1" height="1"/>
+      <rect x="12" y="11" width="1" height="1"/>
+    </g>
+    <!-- mouth -->
     <g fill="#1c2420">
-      <rect x="5" y="4" width="1" height="2"/>
-      <rect x="9" y="4" width="1" height="2"/>
       <rect x="7" y="7" width="2" height="1"/>
+    </g>
+    <!-- sunglasses: dark lens fill -->
+    <g fill="#1c2420">
+      <rect x="4" y="4" width="3" height="2"/>
+      <rect x="8" y="4" width="3" height="2"/>
+    </g>
+    <!-- sunglasses: dark tint over lenses -->
+    <g fill="#2c2c40">
+      <rect x="5" y="4" width="2" height="2"/>
+      <rect x="9" y="4" width="2" height="2"/>
+    </g>
+    <!-- sunglasses frames -->
+    <g fill="#1c1c1c">
+      <rect x="4" y="3" width="3" height="1"/>
+      <rect x="8" y="3" width="3" height="1"/>
+      <rect x="4" y="6" width="3" height="1"/>
+      <rect x="8" y="6" width="3" height="1"/>
+      <rect x="4" y="3" width="1" height="4"/>
+      <rect x="6" y="3" width="1" height="4"/>
+      <rect x="8" y="3" width="1" height="4"/>
+      <rect x="10" y="3" width="1" height="4"/>
+      <!-- bridge -->
+      <rect x="7" y="4" width="1" height="1"/>
+      <!-- arms -->
+      <rect x="3" y="4" width="1" height="1"/>
+      <rect x="11" y="4" width="1" height="1"/>
+    </g>
+    <!-- lens shine: small highlight top-left of each lens -->
+    <g fill="#6666aa">
+      <rect x="5" y="4" width="1" height="1"/>
+      <rect x="9" y="4" width="1" height="1"/>
     </g>
   </svg>
 
@@ -71,8 +87,14 @@
       <rect x="4" y="2" width="2" height="2"/>
       <rect x="10" y="2" width="2" height="2"/>
     </g>
+    <g fill="#6b8e4e">
+      <rect x="4" y="6" width="8" height="1"/>
+    </g>
+    <g fill="#1c2420">
+      <rect x="4" y="7" width="8" height="1"/>
+    </g>
     <g fill="#c8d4a0">
-      <rect x="4" y="6" width="8" height="3"/>
+      <rect x="4" y="8" width="8" height="2"/>
     </g>
     <g fill="#1c2420">
       <rect x="5" y="3" width="1" height="1"/>
