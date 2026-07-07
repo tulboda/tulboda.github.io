@@ -16,7 +16,7 @@
 <body>
   <header>
     <nav>
-      <a href="{{ '/' | relative_url }}" class="site-title">난 털보다</a>
+      <a href="{{ '/' | relative_url }}" class="site-title">{% include site-title.html %}<span class="sr-only">난 털보다</span></a>
       <a href="{{ '/now/' | relative_url }}" {% if page.url contains '/now' %}class="active"{% endif %}>now</a>
       <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>blog</a>
       <a href="{{ '/uses/' | relative_url }}" {% if page.url contains '/uses' %}class="active"{% endif %}>uses</a>
