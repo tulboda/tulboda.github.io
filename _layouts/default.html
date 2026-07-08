@@ -17,10 +17,10 @@
   <header>
     <nav>
       <a href="{{ '/' | relative_url }}" class="site-title">{% include site-title.html %}<span class="sr-only">난 털보다</span></a>
-      <a href="{{ '/now/' | relative_url }}" {% if page.url contains '/now' %}class="active"{% endif %}>now</a>
-      <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>blog</a>
-      <a href="{{ '/uses/' | relative_url }}" {% if page.url contains '/uses' %}class="active"{% endif %}>uses</a>
-      <a href="{{ '/links/' | relative_url }}" {% if page.url contains '/links' %}class="active"{% endif %}>links</a>
+      <a href="{{ '/now/' | relative_url }}" {% if page.url contains '/now' %}class="active"{% endif %}>status</a>
+      <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>log</a>
+      <a href="{{ '/uses/' | relative_url }}" {% if page.url contains '/uses' %}class="active"{% endif %}>inventory</a>
+      <a href="{{ '/links/' | relative_url }}" {% if page.url contains '/links' %}class="active"{% endif %}>waypoints</a>
     </nav>
   </header>
 
@@ -30,7 +30,7 @@
 
   <footer>
     <p>
-      <a href="mailto:{{ site.email }}">{{ site.email }}</a> • <a href="https://hardcover.app/@greatsandwiches">hardcover</a> • <a href="https://github.com/jomolin">github</a> • <a href="{{ '/feed.xml' | relative_url }}">rss</a>
+      <a href="mailto:{{ site.email }}">[w]rite</a> · <a href="https://hardcover.app/@greatsandwiches">[r]ead</a> · <a href="https://github.com/jomolin">[c]ode</a> · <a href="{{ '/feed.xml' | relative_url }}">[f]eed</a>
     </p>
   </footer>
   {% include totem.html %}
