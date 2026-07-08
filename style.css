@@ -8,6 +8,15 @@
     --link: #9d8ff5;
     --mono: monospace;
     --width: 80ch;
+    color-scheme: dark light;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #f0f0f4;
+        --text: #2b2620;
+        --link: #4a3ba0;
+    }
 }
 
 body {
