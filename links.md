@@ -23,6 +23,7 @@ Blogs and sites I like in alphabetical order. Mostly education, tech, or persona
 - [ahnvn](https://anhvn.com/)
 - [Alex Sirac](https://shellsharks.com/)
 - [Dave Stuart Jr.](https://davestuartjr.com/archives/#year2026)
+- [call me manatee](https://callmemanatee.neocities.org/)
 - [elle's homepage](https://ellesho.me)
 - [experimental history](https://www.experimental-history.com/)
 - [gwern](https://gwern.net/)
