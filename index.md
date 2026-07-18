@@ -2,7 +2,6 @@
 layout: page
 title: about
 ---
-## about
 
 I like to make things, but I don't usually share them so publicly. Hopefully I can learn to work on things out in the open.
 
