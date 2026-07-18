@@ -45,7 +45,7 @@ footer {
     max-width: var(--width);
     left: 50%;
     transform: translateX(-50%);
-    padding: 1rem 0;
+    padding: 0.6rem 0;
     background: var(--bg);
     border-top: 1px solid;
 }
@@ -53,6 +53,7 @@ footer {
 footer p {
   display: flex;
   justify-content: space-between;
+  line-height: 1.3;
 }
 
 /* Headings */
