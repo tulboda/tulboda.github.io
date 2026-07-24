@@ -29,9 +29,11 @@
   </main>
 
   <footer>
-    <p>
-      <span><a href="mailto:{{ site.email }}">[m]ail</a> · <a href="https://hardcover.app/@greatsandwiches">[r]ead</a> · <a href="https://github.com/jomolin">[c]ode</a> · <a href="{{ '/feed.xml' | relative_url }}">[f]eed</a></span>{% if page.url == "/blog/" %}<a href="#">[t]op</a>{% endif %}
-    </p>
+      <div class="footer-inner">
+        <p>
+          <a href="mailto:{{ site.email }}">[m]ail</a> · <a href="https://hardcover.app/@greatsandwiches">[r]ead</a> · <a href="https://github.com/jomolin">[c]ode</a> · <a href="{{ '/feed.xml' | relative_url }}">[f]eed</a>
+        </p>
+      </div>
   </footer>
   {% include totem.html %}
 </body>

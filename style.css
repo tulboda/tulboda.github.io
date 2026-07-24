@@ -8,6 +8,7 @@
     --link: #9d8ff5;
     --mono: monospace;
     --width: 70ch;
+    --align: auto;
     color-scheme: dark light;
 }
 
@@ -21,7 +22,7 @@
 
 body {
     max-width: var(--width);
-    margin: 2rem auto;
+    margin: 2rem var(--align);
     padding: 0 1.25rem;
     font: 1.25rem/1.8 sans-serif;
     color: var(--text);
@@ -40,20 +41,17 @@ main {
 
 footer {
     position: fixed;
+    left: 0;
+    right: 0;
     bottom: 0;
-    width: calc(100% - 2.5rem);
-    max-width: var(--width);
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 0.6rem 0;
     background: var(--bg);
-    border-top: 1px solid;
 }
 
-footer p {
-  display: flex;
-  justify-content: space-between;
-  line-height: 1.3;
+.footer-inner {
+    max-width: var(--width);
+    margin: 0 var(--align);
+    padding: 1rem 1.25rem;
+    border-top: 1px solid;
 }
 
 /* Headings */
