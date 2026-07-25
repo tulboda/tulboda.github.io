@@ -33,8 +33,8 @@
   <footer>
     <div class="footer-inner">
       <p>
-        <span><a href="mailto:{{ site.email }}">[m]ail</a> · <a href="https://hardcover.app/@greatsandwiches">[r]ead</a> · <a href="https://github.com/jomolin">[c]ode</a> · <a href="{{ '/feed.xml' | relative_url }}">[f]eed</a>{% if page.url contains '/blog' %} · <a href="#top">[t]op</a>{% endif %}</span>
-        <span class="eof">EOF</span>
+        <span><a href="mailto:{{ site.email }}">[m]ail</a> · <a href="https://hardcover.app/@greatsandwiches">[r]ead</a> · <a href="https://github.com/jomolin">[c]ode</a> · <a href="{{ '/feed.xml' | relative_url }}">[f]eed</a></span>
+        <span class="eof">{% if page.url contains '/blog' %}<a href="#top">[t]op</a> · {% endif %}EOF</span>
       </p>
     </div>
   </footer>
