@@ -24,8 +24,8 @@ Blogs and sites I like in alphabetical order. Mostly education, tech, or persona
 - [AetherAnne](https://aetheranne.ca/)
 - [ahnvn](https://anhvn.com/)
 - [Alex Sirac](https://alexsirac.com/)
-- [Dave Stuart Jr.](https://davestuartjr.com/archives/#year2026)
 - [call me manatee](https://callmemanatee.neocities.org/)
+- [Dave Stuart Jr.](https://davestuartjr.com/archives/#year2026)
 - [elle's homepage](https://ellesho.me)
 - [experimental history](https://www.experimental-history.com/)
 - [gwern](https://gwern.net/)
@@ -39,6 +39,6 @@ Blogs and sites I like in alphabetical order. Mostly education, tech, or persona
 - [Robin Sloan](https://www.robinsloan.com/)
 - [Rosia Evans](https://rosia.me)
 - [shen](https://shen.land/)
-- [the public domain reivew](https://publicdomainreview.org/)
+- [the public domain review](https://publicdomainreview.org/)
 - [Yordi Verkroost](https://yordi.me/)
 {:.columns}
