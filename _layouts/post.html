@@ -2,8 +2,11 @@
 layout: default
 ---
 <article>
-  <h2>{{ page.title }}</h2>
-  <time><a href="{{ page.url | relative_url }}">{{ page.date | date: "%Y-%m-%d" }}</a></time>
+  <header class="bar">
+    <h2 class="tag">{{ page.title }}</h2>
+    <span class="lead"></span>
+    <time class="idx" datetime="{{ page.date | date_to_xmlschema }}"><a href="{{ page.url | relative_url }}">{{ page.date | date: "%Y-%m-%d" }}</a></time>
+  </header>
   {{ content }}
 </article>
 
