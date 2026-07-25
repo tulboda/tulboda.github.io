@@ -182,10 +182,6 @@ nav a.active {
     opacity: 1;
 }
 
-article .bar {
-    margin-top: 0;
-}
-
 /* Dotted-leader log rows (posts + reading) */
 
 .log {
@@ -252,13 +248,7 @@ footer .eof {
     color: var(--dim);
 }
 
-/* Blog list + post dates */
-
-article + article {
-    margin-top: 2rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--text);
-}
+/* Blog post dates */
 
 time {
     display: block;
