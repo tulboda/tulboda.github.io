@@ -1,0 +1,36 @@
+# imood face id -> kaomoji
+# keys are strings to match the string id imood returns
+
+'0': '(◠‿◠)'  # smiley
+'1': '(｡•́︿•̀｡)'  # frowny
+'2': '(╬▔皿▔)╯'  # ragey
+'3': '( ˘_˘ )'  # blah
+'4': '( •_•)'  # neutral
+'5': '٩(◡‿◡)۶'  # angelic
+'6': '( ◕‿‿◕ )'  # upside down smiley
+'7': '(・_・ ?)'  # confused
+'8': '(*ノωノ)'  # embarrassed
+'9': '✧⁺⸜(˶˙▾˙˶)⸝⁺✧'  # magical
+'10': '(×﹏×)'  # sick
+'11': 'ψ(｀∇´)ψ'  # evil
+'12': '(￣o￣)zzZ'  # sleepy
+'13': '٩(★‿★)۶'  # american flag
+'14': '(♡˙︶˙♡)'  # lovey
+'15': '( ﾟ▽ﾟ)/'  # clown
+'16': '(¬‿¬)'  # sly
+'17': '(✖﹏✖)'  # dead
+'18': '(=^･ω･^=)'  # cat
+'19': '(・_・;)'  # unsure
+'20': '(｡♥‿♥｡)'  # heart smiley
+'21': '(◉‿◉)'  # cyclops
+'22': '(♥‿♥)'  # heart eyes
+'23': '(^_~)'  # wink
+'24': '(ಥ﹏ಥ)'  # tears
+'25': '(⚈ᴥ⚈)'  # vampire
+'26': '( ⊙⊙ )'  # alien
+'27': '(((＞＜)))'  # icy
+'28': '(ノ^ヮ^)ノ*:・ﾟ✧'  # rainbow
+'29': '(っ˘ڡ˘ς)'  # lick lips
+'30': '(⌐■_■)'  # nerdy
+'31': '(◣‿◢)'  # devil
+'32': '(◕_◔)'  # half happy/sad

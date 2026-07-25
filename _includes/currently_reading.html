@@ -1,10 +1,5 @@
-<div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 2rem;">
-  {% for book in site.data.currently_reading %}
-    <a href="{{ book.url }}" target="_blank" style="text-decoration: none; width: 130px; display: block;">
-      {% if book.cover %}
-        <img src="{{ book.cover }}" alt="Cover of {{ book.title }}" height="200" style="display: block;">
-      {% endif %}
-      <p style="margin: 0.5rem 0 0; font-size: 0.85rem;">{{ book.title }}</p>
-    </a>
-  {% endfor %}
+<div class="log">
+{%- for book in site.data.currently_reading %}
+  <div class="row"><a href="{{ book.url }}" target="_blank" rel="noopener">{{ book.title }}</a><span class="fill"></span><span class="d">{{ book.author }}</span></div>
+{%- endfor %}
 </div>

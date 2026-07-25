@@ -1,16 +1,24 @@
 ---
-layout: page
+layout: default
 title: about
 ---
 
+{% include status.html %}
+
+{% include bar.html tag="ABOUT" idx="SEC.01" %}
+
 I like to make things, but I don't usually share them so publicly. Hopefully I can learn to work on things out in the open.
 
-I like dates written year-month-day with leading zeroes. Weeks start on Sunday. My spelling is all mixed up since I left the US, but I still mostly prefer American spelling when I notice it.
+This site is a home and a place for me to sort out my thoughts. It's experimental and therapeutic, so don't take anything on here too seriously.
 
-This site is a home and a place for me to sort out my thoughts. It's my place online to relax and reflect on myself as a [meat computer](https://gravityfalls.fandom.com/wiki/We%27ll_Meet_Again). It's experimental and therapeutic, so don't take anything on here too seriously.
+Take off your shoes before coming in.
 
-There's no monetization, advertisements, trackers, paywalls, or public comments. But, if you've got anything to add to my brain, feel free to [contact me](mailto:jsmolinelli@proton.me).
+{% include bar.html tag="LOG" idx="SEC.02" %}
 
-Just take off your shoes before coming in.
+{% include recent-log.html %}
 
-{% include stamp.html %}
+{% include bar.html tag="READING" idx="SEC.03" %}
+
+{% include currently_reading.html %}
+
+<div class="stamp-center">{% include stamp.html %}</div>

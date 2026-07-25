@@ -6,6 +6,9 @@
     --bg: #2a2a2e;
     --text: #e8e1d4;
     --link: #9d8ff5;
+    --dim: #c0bacb;
+    --rule: #4a4657;
+    --hot: #f0619b;
     --mono: monospace;
     --width: 70ch;
     --align: auto;
@@ -17,6 +20,9 @@
         --bg: #f0f0f4;
         --text: #2b2620;
         --link: #4a3ba0;
+        --dim: #4a4552;
+        --rule: #c3bfcd;
+        --hot: #b0195f;
     }
 }
 
@@ -35,29 +41,6 @@ body {
 
 main {
     flex-grow: 1;
-    padding-bottom: 6rem;
-    background: var(--bg);
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: var(--bg);
-}
-
-.footer-inner {
-    max-width: var(--width);
-    margin: 0 var(--align);
-    padding: 0.6rem 1.25rem;
-    border-top: 1px solid;
-}
-
-footer p {
-    display: flex;
-    justify-content: space-between;
-    line-height: 1.3;
 }
 
 /* Headings */
@@ -74,7 +57,7 @@ a {
     color: var(--link);
 }
 
-/* Nav */
+/* Header + nav */
 
 header {
     margin-bottom: 2rem;
@@ -88,27 +71,31 @@ nav {
 }
 
 .site-title {
-    font-family: var(--mono);
-    font-weight: bold;
     margin-right: auto;
     text-decoration: none;
     color: var(--text);
+    display: inline-flex;
+}
+
+.site-title-mark {
+    height: 1.5em;
+    width: auto;
+    display: inline-block;
+    vertical-align: -0.3em;
+    color: var(--text);
+    filter: drop-shadow(1.5px 0 0 #ff3b6b) drop-shadow(-1.5px 0 0 #35e0d0);
 }
 
 nav a {
+    font-family: var(--mono);
     color: var(--text);
     text-decoration: none;
+    text-shadow: 1px 0 0 #ff3b6b, -1px 0 0 #35e0d0;
 }
 
-nav a.active { font-weight: bold; }
-
-/* Site title */
-
-.site-title-mark {
-    height: 1.4em;
-    width: auto;
-    display: inline-block;
-    vertical-align: -0.25em;
+nav a.active {
+    color: var(--hot);
+    text-shadow: 1px 0 0 #ffab40, -1px 0 0 #8c6bff;
 }
 
 .sr-only {
@@ -123,7 +110,122 @@ nav a.active { font-weight: bold; }
     border: 0;
 }
 
-/* Blog list + dates */
+/* System line under the nav */
+
+.sysline {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    color: var(--dim);
+    border-top: 1px solid var(--rule);
+    padding-top: 0.5rem;
+    margin-top: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0 1.5rem;
+}
+
+.sysline a {
+    color: var(--dim);
+    text-decoration: none;
+}
+
+.sysline .kao {
+    letter-spacing: 0;
+    margin-right: 0.45em;
+}
+
+/* Section label bar */
+
+.bar {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 2.25rem 0 0.9rem;
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.22em;
+}
+
+.bar .tag {
+    background: var(--link);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 0.1rem 0.6rem 0.15rem;
+}
+
+.bar .lead {
+    flex: 1;
+    height: 3px;
+    background-image: repeating-linear-gradient(90deg, var(--rule) 0 3px, transparent 3px 9px);
+}
+
+.bar .idx {
+    color: var(--dim);
+}
+
+/* Dotted-leader log rows (posts + reading) */
+
+.log {
+    font-family: var(--mono);
+    font-size: 0.95rem;
+}
+
+.log .row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    padding: 0.35rem 0;
+}
+
+.log .d {
+    color: var(--dim);
+}
+
+.log .fill {
+    flex: 1;
+    min-width: 1.5rem;
+    height: 1px;
+    background-image: repeating-linear-gradient(90deg, var(--rule) 0 2px, transparent 2px 7px);
+}
+
+/* Stamp, centered at the bottom */
+
+.stamp-center {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.stamp-center pre {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 3rem;
+}
+
+.footer-inner {
+    border-top: 1px solid var(--text);
+    padding-top: 0.6rem;
+}
+
+footer p {
+    font-family: var(--mono);
+    font-size: 0.95rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+footer .eof {
+    color: var(--dim);
+}
+
+/* Blog list + post dates */
 
 article + article {
     margin-top: 2rem;
@@ -133,13 +235,14 @@ article + article {
 
 time {
     display: block;
+    font-family: var(--mono);
     font-size: 0.9em;
     opacity: 0.7;
     margin-bottom: 0.25rem;
 }
 
 time a::after {
-    content: '☍';
+    content: '\260D';
     margin-left: 0.5rem;
     font-size: 1.1em;
 }
@@ -153,7 +256,7 @@ blockquote {
     font-style: italic;
 }
 
-pre, code, time {
+pre, code {
     font-family: var(--mono);
 }
 
@@ -168,9 +271,11 @@ code {
     font-size: 0.85rem;
 }
 
-img { max-width: 100%; }
+img {
+    max-width: 100%;
+}
 
-/* Totem rulez */
+/* Totem */
 
 @media (max-width: 800px) {
     #totem { display: none; }
@@ -178,18 +283,5 @@ img { max-width: 100%; }
 
 @media (min-width: 801px) {
     #totem { display: flex; flex-direction: column; }
-    #totem svg { pointer-events: all; }
     footer p { padding-right: 60px; }
-}
-
-@keyframes wiggle {
-    0%   { transform: rotate(0deg); }
-    25%  { transform: rotate(-8deg); }
-    50%  { transform: rotate(8deg); }
-    75%  { transform: rotate(-4deg); }
-    100% { transform: rotate(0deg); }
-}
-
-#totem svg:hover {
-    animation: wiggle 0.4s ease;
 }

@@ -1,0 +1,5 @@
+<div class="log">
+{%- for post in site.posts limit: 3 %}
+  <div class="row"><span class="d">{{ post.date | date: "%Y-%m-%d" }}</span><span class="fill"></span><a href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+{%- endfor %}
+</div>

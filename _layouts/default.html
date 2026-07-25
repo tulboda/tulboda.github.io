@@ -4,24 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦥</text></svg>">
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
-{% if page.excerpt %}
-  <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
-{% elsif site.description %}
-  <meta name="description" content="{{ site.description }}">
-{% endif %}
+  {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 </head>
 <body>
   <header>
     <nav>
       <a href="{{ '/' | relative_url }}" class="site-title">{% include site-title.html %}<span class="sr-only">난 털보다</span></a>
-      <a href="{{ '/now/' | relative_url }}" {% if page.url contains '/now' %}class="active"{% endif %}>> status</a>
-      <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>> log</a>
-      <a href="{{ '/uses/' | relative_url }}" {% if page.url contains '/uses' %}class="active"{% endif %}>> inventory</a>
-      <a href="{{ '/links/' | relative_url }}" {% if page.url contains '/links' %}class="active"{% endif %}>> waypoints</a>
+      <a href="{{ '/#status' | relative_url }}">&gt; status</a>
+      <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>&gt; log</a>
+      <a href="{{ '/uses/' | relative_url }}" {% if page.url contains '/uses' %}class="active"{% endif %}>&gt; inventory</a>
+      <a href="{{ '/links/' | relative_url }}" {% if page.url contains '/links' %}class="active"{% endif %}>&gt; waypoints</a>
     </nav>
+    <div class="sysline">
+      <span>NODE / TULBO.PAGE</span>
+      <span>BUILD / {{ site.time | date: "%Y.%m.%d" }}</span>
+      {%- if site.data.mood.current %}
+      <span>MOOD / <a href="https://www.imood.com/users/jomolin">{%- if site.data.mood.face %}<span class="kao">{{ site.data.kaomoji[site.data.mood.face] }}</span>{%- endif %}{{ site.data.mood.current | upcase }}</a></span>
+      {%- endif %}
+    </div>
   </header>
 
   <main>
@@ -29,12 +31,14 @@
   </main>
 
   <footer>
-      <div class="footer-inner">
-        <p>
-          <span><a href="mailto:{{ site.email }}">[m]ail</a> · <a href="https://hardcover.app/@greatsandwiches">[r]ead</a> · <a href="https://github.com/jomolin">[c]ode</a> · <a href="{{ '/feed.xml' | relative_url }}">[f]eed</a></span>{% if page.url == "/blog/" %}<a href="#">[t]op</a>{% endif %}
-        </p>
-      </div>
+    <div class="footer-inner">
+      <p>
+        <span><a href="mailto:{{ site.email }}">[m]ail</a> · <a href="https://hardcover.app/@greatsandwiches">[r]ead</a> · <a href="https://github.com/jomolin">[c]ode</a> · <a href="{{ '/feed.xml' | relative_url }}">[f]eed</a></span>
+        <span class="eof">EOF</span>
+      </p>
+    </div>
   </footer>
+
   {% include totem.html %}
 </body>
 </html>
