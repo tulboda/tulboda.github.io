@@ -4,12 +4,13 @@ title: blog
 permalink: /blog/
 ---
 
-<h2>log</h2>
-
 {% for post in site.posts %}
-  <article>
-    <time><a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y-%m-%d" }}</a></time>
-    <h3>{{ post.title }}</h3>
-    {{ post.content }}
-  </article>
+<article>
+  <header class="bar">
+    <h3 class="tag">{{ post.title }}</h3>
+    <span class="lead"></span>
+    <time class="idx" datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y-%m-%d" }}</a></time>
+  </header>
+  {{ post.content }}
+</article>
 {% endfor %}

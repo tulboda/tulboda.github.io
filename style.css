@@ -165,6 +165,26 @@ nav a.active {
     color: var(--dim);
 }
 
+/* Semantic post headers: make h3/time behave as .tag/.idx */
+
+.bar h3.tag {
+    margin: 0;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.bar time.idx {
+    display: inline-block;
+    margin: 0;
+    font-size: inherit;
+    line-height: inherit;
+    opacity: 1;
+}
+
+article .bar {
+    margin-top: 0;
+}
+
 /* Dotted-leader log rows (posts + reading) */
 
 .log {

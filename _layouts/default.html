@@ -12,7 +12,7 @@
   <header>
     <nav>
       <a href="{{ '/' | relative_url }}" class="site-title">{% include site-title.html %}<span class="sr-only">난 털보다</span></a>
-      <a href="{{ '/#status' | relative_url }}">&gt; status</a>
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>&gt; status</a>
       <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>&gt; log</a>
       <a href="{{ '/uses/' | relative_url }}" {% if page.url contains '/uses' %}class="active"{% endif %}>&gt; inventory</a>
       <a href="{{ '/links/' | relative_url }}" {% if page.url contains '/links' %}class="active"{% endif %}>&gt; waypoints</a>
