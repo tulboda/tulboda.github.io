@@ -1,27 +1,29 @@
 ---
-layout: page
+layout: default
 title: links
+permalink: /links/
 ---
 
 <style>
-  ul {
-    columns: 3;
-    column-gap: 2em;
-    list-style: none;
-    padding: 0;
-  }
-
-  li {
-    break-inside: avoid;
-    margin-bottom: 0.5em;
-  }
+.columns {
+  columns: 14em;
+  column-gap: 2em;
+  list-style: none;
+  padding: 0;
+}
+.columns li {
+  break-inside: avoid;
+  margin-bottom: 0.5em;
+}
 </style>
 
 Blogs and sites I like in alphabetical order. Mostly education, tech, or personal website related. Capitalization = ¯\\\_(ツ)_/¯
 
+{% include bar.html tag="WAYPOINTS" idx="SEC.00" %}
+
 - [AetherAnne](https://aetheranne.ca/)
 - [ahnvn](https://anhvn.com/)
-- [Alex Sirac](https://shellsharks.com/)
+- [Alex Sirac](https://alexsirac.com/)
 - [Dave Stuart Jr.](https://davestuartjr.com/archives/#year2026)
 - [call me manatee](https://callmemanatee.neocities.org/)
 - [elle's homepage](https://ellesho.me)
@@ -39,3 +41,4 @@ Blogs and sites I like in alphabetical order. Mostly education, tech, or persona
 - [shen](https://shen.land/)
 - [the public domain reivew](https://publicdomainreview.org/)
 - [Yordi Verkroost](https://yordi.me/)
+{:.columns}
