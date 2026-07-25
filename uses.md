@@ -17,8 +17,7 @@ Items marked with asterisks (*) I'm working on moving away from. Possibly analog
 - used business laptops are the way to go
 - m4 macbook air (work laptop, so stays at work)
 - 11" ipad pro 2018 + apple pencil
-- Pixel 9 Pro
-- [niagara launcher](https://niagaralauncher.com/)
+- Pixel 9 Pro - [niagara launcher](https://niagaralauncher.com/)
 - Samsung Buds, gen 1
 
 {% include bar.html tag="SOFTWARE" idx="SEC.02" %}
