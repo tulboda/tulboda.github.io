@@ -41,6 +41,7 @@ body {
 
 main {
     flex-grow: 1;
+    padding-bottom: 4rem;
 }
 
 /* Headings */
@@ -225,12 +226,18 @@ article .bar {
 /* Footer */
 
 footer {
-    margin-top: 3rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bg);
 }
 
 .footer-inner {
+    max-width: var(--width);
+    margin: 0 auto;
+    padding: 0.6rem 1.25rem;
     border-top: 1px solid var(--text);
-    padding-top: 0.6rem;
 }
 
 footer p {

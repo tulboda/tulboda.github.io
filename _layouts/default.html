@@ -9,7 +9,7 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 </head>
 <body>
-  <header>
+  <header id="top">
     <nav>
       <a href="{{ '/' | relative_url }}" class="site-title">{% include site-title.html %}<span class="sr-only">난 털보다</span></a>
       <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>&gt; status</a>
@@ -33,12 +33,11 @@
   <footer>
     <div class="footer-inner">
       <p>
-        <span><a href="mailto:{{ site.email }}">[m]ail</a> · <a href="https://hardcover.app/@greatsandwiches">[r]ead</a> · <a href="https://github.com/jomolin">[c]ode</a> · <a href="{{ '/feed.xml' | relative_url }}">[f]eed</a></span>
+        <span><a href="mailto:{{ site.email }}">[m]ail</a> · <a href="https://hardcover.app/@greatsandwiches">[r]ead</a> · <a href="https://github.com/jomolin">[c]ode</a> · <a href="{{ '/feed.xml' | relative_url }}">[f]eed</a>{% if page.url contains '/blog' %} · <a href="#top">[t]op</a>{% endif %}</span>
         <span class="eof">EOF</span>
       </p>
     </div>
   </footer>
 
-  {% include totem.html %}
 </body>
 </html>
