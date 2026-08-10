@@ -4,9 +4,9 @@ layout: default
 <article>
   <header class="bar">
     <h2 class="tag">{{ page.title }}</h2>
-    <time class="idx" datetime="{{ page.date | date_to_xmlschema }}"><a href="{{ page.url | relative_url }}">{{ page.date | date: "%Y-%m-%d" }}</a></time>
+    <time class="idx" datetime="{{ page.date | date_to_xmlschema }}"><a href="{{ page.url | relative_url }}">{{ page.date | date: "%Y-%m-%d" }} ☍</a></time>
   </header>
   {{ content }}
 </article>
 
-{% include stamp-small.html %}
+{% include stamp.html %}

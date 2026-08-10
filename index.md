@@ -21,4 +21,4 @@ Take off your shoes before coming in.
 
 {% include currently_reading.html %}
 
-<div class="stamp-center">{% include stamp.html %}</div>
+{% include stamp.html %}

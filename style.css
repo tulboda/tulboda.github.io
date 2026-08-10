@@ -146,14 +146,6 @@ nav a.active {
     line-height: inherit;
 }
 
-/* Post date permalink glyph */
-
-.bar time a::after {
-    content: '\260D';
-    margin-left: 0.5rem;
-    font-size: 1.1em;
-}
-
 /* Dotted-leader log rows (posts + reading) */
 
 .log {
@@ -193,24 +185,9 @@ nav a.active {
     font-family: var(--mono);
     font-size: 0.3rem;
     line-height: 1.2;
-    text-align: right;
-    white-space: pre;
-    margin: 2rem 2rem 2rem 0;
-}
-
-.stamp-small {
-    font-size: 0.24rem;
-}
-
-.stamp-center {
     text-align: center;
-    margin-top: 3rem;
-}
-
-.stamp-center .stamp {
-    display: inline-block;
-    text-align: left;
-    margin: 0;
+    white-space: pre;
+    margin: 3rem 0;
 }
 
 /* Footer */
