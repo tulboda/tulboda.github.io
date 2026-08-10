@@ -77,7 +77,6 @@ nav a.active {
 .site-title {
     float: left;
     margin-left: 0;
-    font-size: 1.1em;
     font-weight: bold;
 }
 
@@ -91,10 +90,11 @@ nav a.active {
     border-top: 1px solid var(--rule);
     padding-top: 0.5rem;
     margin-top: 0.75rem;
+    text-align: center;
 }
 
 .sysline span {
-    margin-right: 1.5rem;
+    margin: 0 0.75rem;
 }
 
 .sysline a {
@@ -104,7 +104,7 @@ nav a.active {
 
 .sysline .kao {
     letter-spacing: 0;
-    margin-right: 0.45em;
+    margin: 0 0.45em 0 0;
 }
 
 /* Section label bar */
