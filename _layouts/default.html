@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
@@ -11,7 +11,7 @@
 <body>
   <header id="top">
     <nav>
-      <a href="{{ '/' | relative_url }}" class="site-title">{% include site-title.html %}<span class="sr-only">난 털보다</span></a>
+      <a href="{{ '/' | relative_url }}" class="site-title">난 털보다</a>
       <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>&gt; status</a>
       <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>&gt; log</a>
       <a href="{{ '/uses/' | relative_url }}" {% if page.url contains '/uses' %}class="active"{% endif %}>&gt; inventory</a>
@@ -31,12 +31,10 @@
   </main>
 
   <footer>
-    <div class="footer-inner">
-      <p>
-        <span><a href="mailto:{{ site.email }}">[m]ail</a> · <a href="https://hardcover.app/@greatsandwiches">[r]ead</a> · <a href="https://github.com/jomolin">[c]ode</a> · <a href="{{ '/feed.xml' | relative_url }}">[f]eed</a></span>
-        <span class="eof">{% if page.url contains '/blog' %}<a href="#top">[t]op</a> · {% endif %}EOF</span>
-      </p>
-    </div>
+    <p>
+      <span class="links"><a href="mailto:{{ site.email }}">[m]ail</a> · <a href="https://hardcover.app/@greatsandwiches">[r]ead</a> · <a href="https://github.com/jomolin">[c]ode</a> · <a href="{{ '/feed.xml' | relative_url }}">[f]eed</a></span>
+      <span class="eof">{% if page.url contains '/blog' %}<a href="#top">[t]op</a> · {% endif %}EOF</span>
+    </p>
   </footer>
 
 </body>

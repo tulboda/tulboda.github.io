@@ -1,5 +1,5 @@
 <div class="log">
 {%- for book in site.data.currently_reading %}
-  <div class="row"><a href="{{ book.url }}" target="_blank" rel="noopener">{{ book.title }}</a><span class="fill"></span><span class="d">{{ book.author }}</span></div>
+  <div class="row"><a class="l" href="{{ book.url }}" target="_blank" rel="noopener">{{ book.title }}</a><span class="r d">{{ book.author }}</span></div>
 {%- endfor %}
 </div>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: blog
 permalink: /blog/
 ---
@@ -8,7 +8,6 @@ permalink: /blog/
 <article>
   <header class="bar">
     <h3 class="tag">{{ post.title }}</h3>
-    <span class="lead"></span>
     <time class="idx" datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y-%m-%d" }}</a></time>
   </header>
   {{ post.content }}
