@@ -1,11 +1,10 @@
 ---
 layout: default
-title: about
 ---
 
 {% include status.html %}
 
-{% include bar.html tag="ABOUT" idx="SEC.01" %}
+## about
 
 I like to make things, but I don't usually share them so publicly. Hopefully I can learn to work on things out in the open.
 
@@ -13,11 +12,11 @@ This site is a home and a place for me to sort out my thoughts. It's experimenta
 
 Take off your shoes before coming in.
 
-{% include bar.html tag="LOG" idx="SEC.02" %}
+## log
 
 {% include recent-log.html %}
 
-{% include bar.html tag="READING" idx="SEC.03" %}
+## reading
 
 {% include currently_reading.html %}
 

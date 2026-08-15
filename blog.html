@@ -1,15 +1,13 @@
 ---
 layout: default
-title: blog
+title: log
 permalink: /blog/
 ---
 
 {% for post in site.posts %}
 <article>
-  <header class="bar">
-    <h3 class="tag">{{ post.title }}</h3>
-    <time class="idx" datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y-%m-%d" }} ☍</a></time>
-  </header>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time></p>
   {{ post.content }}
 </article>
 {% endfor %}

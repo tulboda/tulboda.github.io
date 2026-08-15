@@ -1,5 +1,5 @@
-<div class="log">
+<ul>
 {%- for post in site.posts limit: 3 %}
-  <div class="row"><span class="l d">{{ post.date | date: "%Y-%m-%d" }}</span><a class="r" href="{{ post.url | relative_url }}">{{ post.title }}</a></div>
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> — <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time></li>
 {%- endfor %}
-</div>
+</ul>

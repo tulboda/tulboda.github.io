@@ -10,31 +10,29 @@
 </head>
 <body>
   <header id="top">
+    {%- if page.url == '/' %}
+    <h1 class="site-title"><a href="{{ '/' | relative_url }}">난 털보다</a></h1>
+    {%- else %}
+    <p class="site-title"><a href="{{ '/' | relative_url }}">난 털보다</a></p>
+    {%- endif %}
     <nav>
-      <a href="{{ '/' | relative_url }}" class="site-title">난 털보다</a>
-      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>&gt; status</a>
-      <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>&gt; log</a>
-      <a href="{{ '/uses/' | relative_url }}" {% if page.url contains '/uses' %}class="active"{% endif %}>&gt; inventory</a>
-      <a href="{{ '/links/' | relative_url }}" {% if page.url contains '/links' %}class="active"{% endif %}>&gt; waypoints</a>
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>status</a>
+      <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' %} aria-current="page"{% endif %}>log</a>
+      <a href="{{ '/uses/' | relative_url }}"{% if page.url contains '/uses' %} aria-current="page"{% endif %}>inventory</a>
+      <a href="{{ '/links/' | relative_url }}"{% if page.url contains '/links' %} aria-current="page"{% endif %}>waypoints</a>
     </nav>
-    <div class="sysline">
-      <span>NODE / TULBO.PAGE</span>
-      <span>BUILD / {{ site.time | date: "%Y.%m.%d" }}</span>
-      {%- if site.data.mood.current %}
-      <span>MOOD / <a href="https://www.imood.com/users/jomolin">{%- if site.data.mood.face %}<span class="kao">{{ site.data.kaomoji[site.data.mood.face] }}</span>{%- endif %}{{ site.data.mood.current | upcase }}</a></span>
-      {%- endif %}
-    </div>
+    <small>tulbo.page · built: {{ site.time | date: "%Y.%m.%d" }}{% if site.data.mood.current %} · mood: <a href="https://www.imood.com/users/jomolin">{% if site.data.mood.face %}{{ site.data.kaomoji[site.data.mood.face] }} {% endif %}{{ site.data.mood.current }}</a>{% endif %}</small>
   </header>
 
   <main>
+    {%- if page.title and page.layout != 'post' %}
+    <h1>{{ page.title }}</h1>
+    {%- endif %}
     {{ content }}
   </main>
 
   <footer>
-    <p>
-      <span class="links"><a href="mailto:{{ site.email }}">[m]ail</a> · <a href="https://hardcover.app/@greatsandwiches">[r]ead</a> · <a href="https://github.com/jomolin">[c]ode</a> · <a href="{{ '/feed.xml' | relative_url }}">[f]eed</a></span>
-      <span class="eof">{% if page.url contains '/blog' %}<a href="#top">[t]op</a> · {% endif %}EOF</span>
-    </p>
+    <p><a href="mailto:{{ site.email }}">mail</a> · <a href="https://hardcover.app/@greatsandwiches">read</a> · <a href="https://github.com/jomolin">code</a> · <a href="{{ '/feed.xml' | relative_url }}">feed</a>{% if page.url contains '/blog' %} · <a href="#top">top</a>{% endif %}</p>
   </footer>
 
 </body>

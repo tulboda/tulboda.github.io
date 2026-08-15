@@ -1,17 +1,15 @@
 ---
 layout: default
-title: uses
+title: inventory
 permalink: /uses/
 ---
-
-{% include bar.html tag="INVENTORY" idx="SEC.00" %}
 
 I have always wanted everything as minimal as possible to be able to move it to wherever I need to be. I've been using the same rolling duffel bag, carry-on, backpack combo to move to university, to Korea, and to New Zealand.
 I love that duffel bag.
 
 Items marked with asterisks (*) I'm working on moving away from. Possibly analog. I'm open to suggestions.
 
-{% include bar.html tag="HARDWARE" idx="SEC.01" %}
+## hardware
 
 - Lenovo T14 gen 3
 - used business laptops are the way to go
@@ -20,7 +18,7 @@ Items marked with asterisks (*) I'm working on moving away from. Possibly analog
 - Pixel 9 Pro - [niagara launcher](https://niagaralauncher.com/)
 - Samsung Buds, gen 1
 
-{% include bar.html tag="SOFTWARE" idx="SEC.02" %}
+## software
 
 - [fedora 44](https://fedoraproject.org/) - KDE
 - [obsidian](https://obsidian.md/) - long notes
@@ -30,7 +28,7 @@ Items marked with asterisks (*) I'm working on moving away from. Possibly analog
 - procreate* - drawing
 - firefox, brave - browsers in order of preference
 
-{% include bar.html tag="HOMESERVER" idx="SEC.03" %}
+## homeserver
 
 old Lenovo IdeaPad running Debian Trixie
 
@@ -43,7 +41,7 @@ old Lenovo IdeaPad running Debian Trixie
 - [koreader](https://koreader.rocks/) + [kosync](https://github.com/koreader/kosync) - reading on phone and tablet with progress sync
 - [freshrss](https://freshrss.org/) - RSS, read on the phone with [capyreader](https://github.com/jocmp/capyreader)
 
-{% include bar.html tag="THIS SITE" idx="SEC.04" %}
+## this site
 
 - built with [Jekyll](https://jekyllrb.com/) + plain CSS
 - [cloudflare](https://cloudflare.com) - cdn, dns

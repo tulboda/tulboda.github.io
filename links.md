@@ -1,25 +1,10 @@
 ---
 layout: default
-title: links
+title: waypoints
 permalink: /links/
 ---
 
-<style>
-.columns {
-  columns: 14em;
-  column-gap: 2em;
-  list-style: none;
-  padding: 0;
-}
-.columns li {
-  break-inside: avoid;
-  margin-bottom: 0.5em;
-}
-</style>
-
 Blogs and sites I like in alphabetical order. Mostly education, tech, or personal website related. Capitalization = ¯\\\_(ツ)_/¯
-
-{% include bar.html tag="WAYPOINTS" idx="SEC.00" %}
 
 - [AetherAnne](https://aetheranne.ca/)
 - [ahnvn](https://anhvn.com/)
@@ -45,4 +30,3 @@ Blogs and sites I like in alphabetical order. Mostly education, tech, or persona
 - [the public domain review](https://publicdomainreview.org/)
 - [Tilman Zitzmann](https://knot.tilman.me/)
 - [Yordi Verkroost](https://yordi.me/)
-{:.columns}
