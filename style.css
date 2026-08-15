@@ -61,7 +61,7 @@ header small {
     color: var(--dim);
     border-top: 1px solid var(--text);
     padding-top: 0.4rem;
-    font-size: 0.75rem;
+    font-size: inherit;
 }
 
 /* Headings */
@@ -90,7 +90,6 @@ article h2 {
 
 time {
     color: var(--dim);
-    font-size: 0.8rem;
 }
 
 /* Lists */
