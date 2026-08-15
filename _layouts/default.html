@@ -11,9 +11,9 @@
 <body>
   <header id="top">
     {%- if page.url == '/' %}
-    <h1 class="site-title"><a href="{{ '/' | relative_url }}">난 털보다</a></h1>
+    <h1 class="site-title">난 털보다</h1>
     {%- else %}
-    <p class="site-title"><a href="{{ '/' | relative_url }}">난 털보다</a></p>
+    <p class="site-title">난 털보다</p>
     {%- endif %}
     <nav>
       <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>status</a>
@@ -21,7 +21,7 @@
       <a href="{{ '/uses/' | relative_url }}"{% if page.url contains '/uses' %} aria-current="page"{% endif %}>inventory</a>
       <a href="{{ '/links/' | relative_url }}"{% if page.url contains '/links' %} aria-current="page"{% endif %}>waypoints</a>
     </nav>
-    <small>tulbo.page · built: {{ site.time | date: "%Y.%m.%d" }}{% if site.data.mood.current %} · mood: <a href="https://www.imood.com/users/jomolin">{% if site.data.mood.face %}{{ site.data.kaomoji[site.data.mood.face] }} {% endif %}{{ site.data.mood.current }}</a>{% endif %}</small>
+    <small>tulbo.page · built {{ site.time | date: "%Y.%m.%d" }}{% if site.data.mood.current %} · <a href="https://www.imood.com/users/jomolin">{% if site.data.mood.face %}{{ site.data.kaomoji[site.data.mood.face] }} {% endif %}{{ site.data.mood.current }}</a>{% endif %}</small>
   </header>
 
   <main>

@@ -39,9 +39,9 @@ header {
 }
 
 .site-title {
-    font-size: 1.25rem;
-    font-weight: normal;
-    margin: 0 0 0.3rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0 0 0.4rem;
 }
 
 nav {
@@ -50,7 +50,6 @@ nav {
 
 nav a {
     margin-right: 1.5rem;
-    font-size: 0.95rem;
 }
 
 nav a[aria-current="page"] {
